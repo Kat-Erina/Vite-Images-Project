@@ -21,12 +21,14 @@ export const Gallery=()=>{
 
     if(result.isLoading==true){
         return<p>Loading...</p>
-    } else
+    } else if(result.isLoading==false)
     
     return <div className="gallery">
-        {result.data.data.results.map((el)=>{
+        {value!="" && result.data.data.results.length===0?<p>No image was found</p>:result.data.data.results.map((el)=>{
             const src=el.urls.regular;
             return <Image key={el.id} src={src}/>
         })}
+        
+        
     </div>
 }

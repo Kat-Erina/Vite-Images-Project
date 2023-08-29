@@ -1,6 +1,6 @@
 import { GlobalContextContainer } from "./Context"
 import React from "react";
-import { Image } from "./image.JSX";
+import { Image } from "./image";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 

@@ -378,7 +378,6 @@ justify-content: center;}
 
   .contentContainer{
     width: 80%;
-    border: 1px solid red;
     text-align: center;
     padding-top: 3rem;
   }
@@ -415,7 +414,6 @@ transition: all 2 ease-in-out;}
 }
 
 .gallery{
-  border: 1ps xolid black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -425,7 +423,6 @@ transition: all 2 ease-in-out;}
 .img{width: 200px;
   height: 200px;
   padding: 15px;
-  /* border: 1px solid blue; */
   }
 
 @media (prefers-color-scheme:dark){
